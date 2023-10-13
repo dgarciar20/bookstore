@@ -17,13 +17,13 @@
 
 ```shell
 # Clone this repository in your root folder
-git clone 
-
-# Install dependencies
-composer install
+git clone https://github.com/dgarciar20/bookstore.git
 
 # Navigate to the bookstore folder
 cd bookstore
+
+# Install dependencies
+composer install
 
 # Create file .env
 cp .env.example .env
@@ -44,6 +44,10 @@ php artisan serve
 http://localhost:8000
 
 # Admin account
-homero@mail.com
+donygarc20@gmail.com
 password
+
+ # User account
+ user@mail.com
+ password
 ```
