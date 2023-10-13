@@ -35,6 +35,7 @@
         @endif
         <div class="container">
             <div class="title m-b-md text-center">
+            <img src="{{ asset('Sarasvati.png') }}" alt="" width="150px">
                 Bookstore
             </div>
             @if ($message = Session::get('danger'))
